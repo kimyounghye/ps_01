@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pp - 실습2</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/fonts.css">
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/slick.css">
+    <link rel="stylesheet" href="./css/style.css">
+
+    <script src="./js/jquery-1.12.4.min.js"></script>
+    <script src="./js/slick.min.js"></script>
+    <script src="./js/custom.js"></script>
+
+
+</head>
+
+<body>
+    <header class="header">
+        <div class="ht">
+            <div class="inner">
+                <h1>
+                    <a href="/">
+                        <img src="./images/kto_bi_1.png" alt="">
+                    </a>
+                </h1>
+                <div class="utils">
+                    <button><a href="#"><img src="./images/search.svg" alt=""></a></button>
+                    <button><a href="#"><img src="./images/icon-person-24.svg" alt=""></a></button>
+                    <button><a href="#"><img src="./images/icon-cart-24.svg" alt=""></a></button>
+                </div>
+            </div>
+        </div>
+        <div class="hb">
+            <div class="inner">
+                <nav class="gnb">
+                    <ul>
+                        <li><a href="">국내여행</a>
+                            <ul class="sub">
+                                <li><a href="#">제주여행</a></li>
+                                <li><a href="#">내륙여행</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="">테마여행</a>
+                            <ul class="sub">
+                                <li><a href="#">허니문</a></li>
+                                <li><a href="#">트레킹/레저</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="">항공</a></li>
+                        <li><a href="">숙박</a></li>
+                        <li><a href="">이달의 혜택</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+
+    </header>
+    <main>
+        <section class="main_visual">
+            <h2 class="blind">메인 비주얼</h2>
+            <div class="main_visual_slide">
+                <div class="itm itm01">
+                    <div class="txt">
+                        <p>추천, 이달의 국내여행</p>
+                        <strong>패키지부터 자유여행까지~</strong>
+                    </div>
+                </div>
+                <div class="itm itm02">
+                    <div class="txt">
+                        <p>이유있는 선택, 내 나라 여행</p>
+                        <strong>고객들이 선택한 고품격 여행</strong>
+                    </div>
+                </div>
+            </div>
+            <div class="arrows">
+                <button class="prev"><img src="./images/chevron-left.svg" alt=""></button>
+                <button class="next"><img src="./images/chevron-right.svg" alt=""></button>
+            </div>
+        </section>
+        <section class="main_content">
+            <h2>출발임박! 바로 떠나는 국내여행</h2>
+            <p>지금 당장 예약할 수 있는 상품을 소개합니다~</p>
+            <div class="inner">
+                <div class="itm">
+                    <div class="img_box">
+                        <img src="./images/namhaean.jpg" alt="">
+                    </div>
+                    <strong>남해안 일주 4일<br>
+                        #여수/구례/거제/부산</strong>
+                    <p>1,050,000원</p>
+                </div>
+                <div class="itm">
+                    <div class="img_box">
+                        <img src="./images/taejongdae.jpg" alt="">
+                    </div>
+                    <strong>부산/거제//통영/남해 3일<br>
+                        #쪽빛바다/태종대</strong>
+                    <p>369,000원</p>
+                </div>
+                <div class="itm">
+                    <div class="img_box">
+                        <img src="./images/hanruysudo.jpg" alt="">
+                    </div>
+                    <strong>거제/통영/남해/여주/전주 3일<br>
+                        #한려수도완전일주</strong>
+                    <p>355,000원</p>
+                </div>
+                <div class="itm">
+                    <div class="img_box">
+                        <img src="./images/daranyevillage.jpg" alt="">
+                    </div>
+                    <strong>남해/순천/여수 2일<br>
+                        #남쪽나라명소/다랭이마을</strong>
+                    <p>299,000원</p>
+                </div>
+                <div class="itm">
+                    <div class="img_box">
+                        <img src="./images/dea09c5c-d3b5-4aef-9612-f87b5c895306.jpg" alt="">
+                    </div>
+                    <div class="cate">[버스여행]</div>
+                    <strong>신안/목표/해남/강진.순천 3일<br>
+                        #남도일주/전라도별미</strong>
+                    <p>335,000원</p>
+                </div>
+                <div class="itm">
+                    <div class="img_box">
+                        <img src="./images/18c9290e-45e6-404a-9e5d-b190fdebf5ac.jpg" alt="">
+                    </div>
+                    <div class="cate">[KTX여행]</div>
+                    <strong>여수/순천/남해 3일 #남해안<br>
+                        핵심관광/해양레일바이크</strong>
+                    <p>379,000원</p>
+                </div>
+                <div class="itm">
+                    <div class="img_box">
+                        <img src="./images/46d26021-3ccd-4e5a-a203-cb1592354bd2.jpg" alt="">
+                    </div>
+                    <div class="cate">[KTX여행]</div>
+                    <strong>거제/통영/남해/여수 3일<br>
+                        #한려수도완주일주</strong>
+                    <p>379,000원</p>
+                </div>
+                <div class="itm">
+                    <div class="img_box">
+                        <img src="./images/ca5759a5-19b8-424d-a219-8097f08f034f.jpg" alt="">
+                    </div>
+                    <div class="cate">[버스여행]</div>
+                    <strong>여수/남해 2일 #오동도/향일암<br>
+                        /여수해상케이블카</strong>
+                    <p>147,000원</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="main_tour_fall">
+            <div class="inner">
+                <div class="title">
+                    <div class="wrap">
+                        <h2>성큼 다가온<br>
+                            가을 여행</h2>
+                        <ul class="list">
+                            <li class="on"><button>일본</button></li>
+                            <li><button>중국</button></li>
+                            <li><button>동남아시아</button></li>
+                            <li><button>유럽</button></li>
+                            <li><button>미주/남태평양</button></li>
+                        </ul>
+                    </div>
+
+                </div>
+                <div class="desc">
+                    <div class="case on">
+                        <div class="itm">
+                            <div class="img_box">
+                                <img src="./images/a851c2b5-f70b-4cba-962d-7beb811113e2.jpg" alt="">
+                            </div>
+                            <div class="cate">
+                                <strong>오사카 3,4일<br> #선착순 할인/ 가성비 추천</strong>
+                                <p>오사카, 교토, 고베 등 간사이 핵심관광</p>
+                                <span>499,900원</span>
+                            </div>
+                        </div>
+                        <div class="itm">
+                            <div class="img_box">
+                                <img src="./images/24b3b533-c544-4c51-adc5-8e0363038ac3.jpg" alt="">
+                            </div>
+                            <div class="cate">
+                                <strong>규슈 3일 #벳부 인피니티 온천풀 <br>
+                                    호텔/ 유후인 산책</strong>
+                                <p>대욕장, 노천탕, 인피니티풀 갖춘 온천호텔 숙박</p>
+                                <span>799,900원</span>
+                            </div>
+                        </div>
+                        <div class="itm">
+                            <div class="img_box">
+                                <img src="./images/46c46068-e7b3-4289-a16f-021a24155842.jpg" alt="">
+                            </div>
+                            <div class="cate">
+                                <strong>홋카이도 4일 #베스트셀러/ 인기 <br>
+                                    온천 호텔/ 미식여행</strong>
+                                <p>삿포로, 도야, 노보리베츠 핵심관광</p>
+                                <span>1,099,000원</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="case">
+                        <div class="itm">
+                            <div class="img_box">
+                                <img src="./images/a427bd09-3667-4818-a0b9-7c9e4775466c.jpg" alt="">
+                            </div>
+                            <div class="cate">
+                                <strong>[인천/무안] 장가계/원가계 4~7일<br>
+                                    #천문산 케이블카</strong>
+
+                                <p>아름다운 장가계 풍경을 간직할 포토북 증정</p>
+                                <span>379,000원</span>
+                            </div>
+                        </div>
+                        <div class="itm">
+                            <div class="img_box">
+                                <img src="./images/28d19c65-7b25-4edb-89b8-db80ca9cc050.jpg" alt="">
+                            </div>
+                            <div class="cate">
+                                <strong>항주/황산 4일 <br>
+                                    #산장 숙박/일출 감상/서해대협곡</strong>
+                                <p>유네스코 세계유산, 아름다운 서호 관광</p>
+                                <span>749,000원</span>
+                            </div>
+                        </div>
+                        <div class="itm">
+                            <div class="img_box">
+                                <img src="./images/2828e989-48ec-4683-b02e-8816f58ca415.jpg" alt="">
+                            </div>
+                            <div class="cate">
+                                <strong>[인천/부산]태항산 4~5일 <br>
+                                    #100%출발확정/ 태항대협곡</strong>
+                                <p>만선산,천계산 풍경구</p>
+                                <span>639,000원</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="case">
+                        <div class="itm">
+                            <div class="img_box">
+                                <img src="./images/20bd14cd-3d53-40c6-bb26-746d5cef9055.jpg" alt="">
+                            </div>
+                            <div class="cate">
+                                <strong>대만 4,5일 #타이베이/야류/지우펀<br>
+                                    #천등날리기</strong>
+                                <p>다양한 먹거리 가득한 야시장 방문</p>
+                                <span>583,500원</span>
+                            </div>
+                        </div>
+                        <div class="itm">
+                            <div class="img_box">
+                                <img src="./images/bnr_co_a.jpg" alt="">
+                            </div>
+                            <div class="cate">
+                                <strong>코타키나발루 5,6일 <br>
+                                    #아일랜드 투어/ 선셋 나이트투어</strong>
+                                <p>가성비 추천 준특급 리조트 모아보기</p>
+                                <span>452,000원</span>
+                            </div>
+                        </div>
+                        <div class="itm">
+                            <div class="img_box">
+                                <img src="./images/6952e0fb-f1a4-4d36-8f21-0871e67591bc.jpg" alt="">
+                            </div>
+                            <div class="cate">
+                                <strong>나트랑/달랏 5,6일 #위장을 채워 달<br>
+                                    랏/ 1일 1간식/ 야시장<br>
+                                    100%출발확정/ 태항대협곡</strong>
+                                <p>랑비엔 지프차 포함 / 달랏 시내 중심 호텔</p>
+                                <span>269,000원</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="case">
+                        <div class="itm">
+                            <div class="img_box">
+                                <img src="./images/d6c14173-9adc-4950-bf2c-cbe008af78fd.jpeg" alt="">
+                            </div>
+                            <div class="cate">
+                                <strong>스페인/포르투갈 9,10,11일 <br>
+                                    #베스트셀러 #시내호텔 숙박</strong>
+                                <p>현지에서 꼭 맛봐야할 맛 10가지</p>
+                                <span>3,999,000원</span>
+                            </div>
+                        </div>
+                        <div class="itm">
+                            <div class="img_box">
+                                <img src="./images/d427f603-fc26-42fd-bec1-65466b9be31d.jpg" alt="">
+                            </div>
+                            <div class="cate">
+                                <strong>서유럽 3/4개국 8~12일 <br>
+                                    #힐링 알프스 #물의 도시 베네치아</strong>
+                                <p>서유럽의 역사, 문화, 예술, 자연을 아우르는 일정</p>
+                                <span>2,699,000원</span>
+                            </div>
+                        </div>
+                        <div class="itm">
+                            <div class="img_box">
+                                <img src="./images/34b6019e-5a93-490e-a761-793167eb4d99.jpg" alt="">
+                            </div>
+                            <div class="cate">
+                                <strong>그리스 일주 9,10일 <br>
+                                    #산토리니 #아테네 원데이 크루즈</strong>
+                                <p>NO가이드/기사경비, NO쇼핑</p>
+                                <span>4,389,000원</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="case">
+                        <div class="itm">
+                            <div class="img_box">
+                                <img src="./images/22d6cf85-8964-4a8f-9f83-db45b5e24ef2.jpg" alt="">
+                            </div>
+                            <div class="cate">
+                                <strong>호주/뉴질랜드 남북섬 10일 #밀포드<br>
+                                    사운드 #와이토모 반딧불 동굴</strong>
+                                <p>시드니 하버 크루즈 & 블루마운틴 관광</p>
+                                <span>3,290,000원</span>
+                            </div>
+                        </div>
+                        <div class="itm">
+                            <div class="img_box">
+                                <img src="./images/b988fc3b-4d8c-457b-a97e-0d1042d468f8.jpg" alt="">
+                            </div>
+                            <div class="cate">
+                                <strong>괌 4,5일 <br>
+                                    #츠바키 타워 #인피니티풀 #호캉스</strong>
+                                <p>전객실 오션뷰를 자랑하는 괌 최고 럭셔리 호텔</p>
+                                <span>609,000원</span>
+                            </div>
+                        </div>
+                        <div class="itm">
+                            <div class="img_box">
+                                <img src="./images/4902467a-7966-44bf-9902-468e22228088.jpg" alt="">
+                            </div>
+                            <div class="cate">
+                                <strong>미서부 10일 #5대 캐년 #모뉴먼트<br>
+                                    밸리 #라스베이거스 중심가 호텔</strong>
+                                <p>앤텔롭 캐년 & 호스슈 벤드</p>
+                                <span>2,917,400원</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+    </main>
+    <footer class="footer">
+        <div class="ft">
+            <div class="inner">
+                <ul class="customer">
+                    <li><a href="">개인정보처리방침</a></li>
+                    <li><a href="">회원약관</a></li>
+                    <li><a href="">회사소개</a></li>
+                    <li><a href="">찾아오시는길</a></li>
+                </ul>
+
+            </div>
+        </div>
+        <div class="fb">
+            <div class="inner">
+                <div class="f_logo">
+                    <img src="./images/kto_bi_1.png" alt="">
+                </div>
+                <div class="copy">
+                    <address>Copyright © 2024</address>
+                </div>
+                <div class="f_lnk">
+                    <select id="flnk">
+                        <option value="">패밀리링크</option>
+                        <option value="http://naver.com">네이버</option>
+                        <option value="http://kakao.com">다음</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <button class="to_top">
+        <i class="xi-arrow-up"></i>
+    </button>
+
+</body>
+
+</html>
